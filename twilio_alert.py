@@ -1,10 +1,10 @@
 from twilio.rest import Client
 
 # Twilio Credentials
-TWILIO_ACCOUNT_SID = "AC90a47e34b33500ecce021f6308462182"
-TWILIO_AUTH_TOKEN = "5718922b0952aee8eeb9c147e903e480"
-TWILIO_PHONE_NUMBER = "+16575306863"
-YOUR_PHONE_NUMBER = "+917439033371"
+TWILIO_ACCOUNT_SID = "ssid"
+TWILIO_AUTH_TOKEN = "Auth"
+TWILIO_PHONE_NUMBER = "twilio number"
+YOUR_PHONE_NUMBER = "your mobile number"
 
 def make_phone_call():
     try:
